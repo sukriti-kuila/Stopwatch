@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#container{
+    height: 200px;
+    width: 350px;
+    /* background-color: rgb(18, 179, 170); */
+    position: relative;
+}
+    
+#display-box{
+   height: 65px;
+   width: 324px;
+   background-color: rgb(238, 115, 67);
+   border: 2px dotted rgb(12, 2, 2);
+   position: absolute;
+   top: 20px;
+   left: 14px;
+   border-radius: 5px;
+   font-family: 'Orbitron', sans-serif;
+   font-weight: bolder;
+   letter-spacing: 1px;
+   font-size: 28px;
+   /* text-align: center; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#buttons{
+    position: absolute;
+    top: 102px;
+    left: 20px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+
